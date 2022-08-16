@@ -1,4 +1,4 @@
-# <a name="general"></a>Fxied-point-to-floating-point
+# <a name="general"></a>Fixed-point-to-floating-point
 ## Требования к программному модулю «Scale»
 1. Модуль должен быть реализован на языке C/C++ в виде пары файлов «scale.h» и «scale.cpp»,
 содержащих интерфейс модуля и его реализацию соответственно.
