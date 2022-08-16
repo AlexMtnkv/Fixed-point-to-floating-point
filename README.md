@@ -12,6 +12,7 @@
 +   Функция должна иметь прототип:
     double FromScale( unsigned long dwValue, int iHighBit, int iBitCount, int iSigned, double dScale );
     где:
+    
     dwValue – бинарное представление числа с фиксированной точкой,
     
     iHighBit – номер старшего бита числа с фиксированной точкой (если число со знаком, то номер
