@@ -6,7 +6,7 @@ double FromScale(unsigned long dwValue, int iHighBit, int iBitCount, int iSigned
     int N = sizeof(long) * 8;       // N - количество бит в типах long и unsigned long
     if (iHighBit < 1 || iHighBit > N - 1)     // номер старшего (или знакового) бита в диапазоне 1...N-1
         return 0.0;                     
-    if (iBitCount < 2 || iBitCount > N)     // количество значащих бит (включая знаковый) в диапазоне 2...N
+    if (iBitCount < 1 || iBitCount > N)     // количество значащих бит (включая знаковый) в диапазоне 1...N
         return 0.0;
     if (dScale < 0.0)   // некорректная цена старшего бита
         return 0.0;         
@@ -29,7 +29,7 @@ double FromScale(unsigned long dwValue, int iHighBit, int iBitCount, int iSigned
         result *= dScale / (e << n);    // делим результат на степень двойки (старший разряд по умолчанию)
                                         // и умножаем на заданную цену, если цена по умолчанию, то
     } else {                            // младший значащий бит нужно сделать с ценой = 1, 
-        result /= e << (N - iHighBit);  // для этого результат делим на двойку в степени
+        result /= e << (N - iBitCount);  // для этого результат делим на двойку в степени
     }                                   // порядка старшего незначащего бита справа
 
     return result;
