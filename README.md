@@ -42,6 +42,8 @@ ___
 ## Тестирование
 Результат выполнения тестового файла [`test.cpp`](https://github.com/AlexMtnkv/Fxied-point-to-floating-point/blob/2db268ed111a77ee1e90f7a952681c9d255cc5fd/test.cpp).
 
-![image](https://user-images.githubusercontent.com/90116073/184785637-43474d49-e406-41ba-ad7d-e0022df51880.png)
+![image](https://user-images.githubusercontent.com/90116073/185216812-af479752-a6ae-4344-8735-d3c04b09d63f.png)
+![image](https://user-images.githubusercontent.com/90116073/185216904-ce69824f-bfc5-420f-a982-54cdf4b5ff92.png)
+
 
 [:arrow_up:Наверх](#general)
