@@ -14,6 +14,8 @@ int main()
     print_FromScale(65536, 16, 1, 0, 0.1);
     print_FromScale(65536, 17, 2, 1, 0.334);
     print_FromScale(196608, 17, 2, 1, 0.7);
+    print_FromScale(51, 1, 2, 1, 0.7);
+    print_FromScale(51, 5, 2, 1, 0.7);
     
     return 0;
 }
